@@ -1,0 +1,18 @@
+algoritmo "escopoParametro"
+
+var
+  numero: inteiro
+  valor: inteiro
+
+procedimento mostrarValor()
+inicio
+  valor <- 2
+  escreval("Número: ", numero)
+  escreval("Valor: ", valor)
+fimprocedimento
+
+inicio
+  numero <- 10
+  mostrarValor()
+  escreval("Valor: ", valor)
+fimalgoritmo
